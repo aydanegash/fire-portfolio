@@ -106,6 +106,7 @@ p {
     color: #ffffff;
 }
 
+
 .work {
     margin-bottom: 20px;
     padding: 50px;
@@ -117,16 +118,36 @@ p {
 
 .column {
     float: left;
-    width: 33.33%;
+    width: 30%;
     padding: 5px; 
 }
+ .column1 {
+     float: left;
+     width: 10%;
+ }
 
 .row::after {
     content: "";
     clear: both;
     display: table;
   }
+.work h2 {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    ;
+}
 
+.about-me h2 {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    ;
+}
+
+.resume h2 {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    ;
+}
 .contact-me {
     margin-bottom: 20px;
     padding-top: 20px;
@@ -168,18 +189,18 @@ p {
 }
 
 .about-me h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+    margin-bottom: 15px;
+    font-size: 45px;
 }
 
 .work h2 {
     margin-bottom: 10px;
-    font-size: 36px;
+    font-size: 45px;
 }
 
-.contact-me h2 {
-    margin-bottom: 5px;
-    font-size: 36px;
+.resume h2 {
+    margin-bottom: 15px;
+    font-size: 45px;
 }
 
 .resume img {
@@ -187,12 +208,12 @@ p {
 }
 
 .footer {
-    padding: 30px;
+    padding: 250px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    color: #ffffff;
+    font-size: 40px;
 }
 
-.footer h2 {
-    font-size: 20px;
-}
+

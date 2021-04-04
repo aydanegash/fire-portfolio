@@ -50,18 +50,12 @@ p {
     font-size: 16px;
 }
 
-.jungle {
-    body {
-        background-image: url("./assets/images/jungle.jpg");
-        background-color: #cccccc;
-       }
-}
 
 .jungle {
-    height: 800px;
+    height: 100%;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("./assets/images/jungle.jpg");
+    background-image: url("../images/tress-on-lake.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -76,10 +70,19 @@ p {
     margin-left: 25px;
 }
 
+
+.profile-pic {
+    height: 300px;
+    background-image: url("../images/profile-picture.JPG"); 
+    background-position: center;
+}
+
+
+
 .content {
-    width: 75%;
+    width: 60%;
     display: inline-block;
-    margin-left: 20px;
+    margin-block: 20px;
 }
 
 .contact-me {
@@ -88,57 +91,9 @@ p {
     clear: both;
     float: right;
     width: 20%;
-    height: 100%;
+    height: 300%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #65ac75;
-}
-
-.contact-me {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.contact-me {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.contact-me {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.contact-me h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.contact-me h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.contact-me h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.contact-me img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.contact-me img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.contact-me img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
 }
 
 .about-me {
